@@ -21,7 +21,7 @@ module.exports = {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Components',
         },
         {
           href: 'https://github.com/facebook/docusaurus',
@@ -37,7 +37,7 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Components',
               to: '/docs/intro',
             },
           ],

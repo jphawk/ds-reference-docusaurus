@@ -23,5 +23,4 @@ collections:
     fields:
       - {label: 'Name', name: 'name'}
       - {label: 'Menu', name: 'menu', required: false}
-      - {label: 'Route', name: 'route'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
