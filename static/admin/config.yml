@@ -9,7 +9,7 @@ collections:
   - name: 'docs'
     label: 'Docs'
     label_singular: 'Doc'
-    folder: 'pages/docs'
+    folder: 'src/pages/docs'
     extension: md
     widget: list
     create: true
