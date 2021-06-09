@@ -2,11 +2,11 @@ backend:
   name: git-gateway
   branch: master
   commit_messages:
-    create: Create {{collection}} {{name}}
-    update: Update {{collection}} {{name}}
-    delete: Delete {{collection}} {{name}}
-    uploadMedia: Upload {{path}}
-    deleteMedia: Delete {{path}}
+    create: Create {{collection}} {{fields.name}}
+    update: Update {{collection}} {{fields.name}}
+    delete: Delete {{collection}} {{fields.name}}
+    uploadMedia: Upload to {{media_folder}}
+    deleteMedia: Delete from {{media_folder}}
 
 media_folder: static/img
 public_folder: static/img
@@ -19,7 +19,6 @@ collections:
     extension: md
     widget: list
     create: true
-    slug: '{{title}}'
     fields:
       - {label: 'Name', name: 'name'}
       - {label: 'Menu', name: 'menu', required: false}
