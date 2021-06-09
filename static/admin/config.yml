@@ -20,7 +20,7 @@ collections:
     widget: list
     create: true
     slug: '{{slug}}'
-    identifier_field: '{{title}}'
+    identifier_field: '{{fields.name}}'
     fields:
       - {label: 'Name', name: 'name'}
       - {label: 'Menu', name: 'menu', required: false}
