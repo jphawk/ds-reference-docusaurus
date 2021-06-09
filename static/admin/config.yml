@@ -5,8 +5,8 @@ backend:
     create: Create {{collection}} “{{slug}}”
     update: Update {{collection}} “{{slug}}”
     delete: Delete {{collection}} “{{slug}}”
-    uploadMedia: Upload to “{{path}}”
-    deleteMedia: Delete from “{{path}}”
+    uploadMedia: Upload “{{path}}”
+    deleteMedia: Delete “{{path}}”
 
 media_folder: static/img
 public_folder: static/img
@@ -16,7 +16,7 @@ collections:
     label: 'Docs'
     label_singular: 'Doc'
     folder: 'docs'
-    extension: md
+    extension: mdx
     widget: list
     create: true
     slug: '{{slug}}'
