@@ -19,6 +19,7 @@ collections:
     extension: md
     widget: list
     create: true
+    slug: {{slug}}
     fields:
       - {label: 'Name', name: 'name'}
       - {label: 'Menu', name: 'menu', required: false}
